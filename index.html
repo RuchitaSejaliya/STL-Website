@@ -11,15 +11,15 @@
 </head>
 
 <body>
-    <nav class=" bg-slate-200 py-3 ">
+    <nav class=" bg-slate-200 p-3">
         <div class="flex justify-between items-center">
-            <div class="pl-10">
+            <div class="">
                 <h1 class="text-2xl font-bold">Solute<span class="text-blue-800">Labs</span></h1>
             </div>
-            <div class="pr-10 sm:hidden">
+            <div class="sm:hidden">
                 <i class="fa fa-bars"></i>
             </div>
-            <ul class="hidden sm:flex sm:justify-between sm:items-center text-lg sm:space-x-5 sm:pr-10 cursor-pointer font-semibold">
+            <ul class="hidden sm:flex sm:justify-between sm:items-center text-lg sm:space-x-5 cursor-pointer font-semibold">
                 <li class="hover:text-blue-800">Home</li>
                 <li class="hover:text-blue-800">About</li>
                 <li class="hover:text-blue-800">Services</li>
@@ -37,38 +37,41 @@
         </div>
     </section>
     <section class="my-10">
-        <h1 class="text-center text-2xl font-bold pb-8 md:text-4xl">Web Development Services</h1>
+        <h1 class="text-center text-3xl font-bold pb-8 md:text-4xl">Web Development Services</h1>
         <div class="flex flex-wrap sm:justify-center lg:justify-center xl:max-w-7xl xl:m-auto xl:justify-between">
-            <div class="relative px-6 pb-3 shadow-xl hover:scale-110 hover:ease-in-out duration-500 md:basis-[46%] lg:basis-[23%] sm:max-w-xl">
+            <div class="flex flex-col px-3 shadow-xl hover:scale-110 hover:ease-in-out duration-500 md:basis-[46%] lg:basis-[23%] sm:max-w-xl">
                 <img src="img/react.png" alt="" class="w-32 h-32 object-cover m-auto mt-5">
-                <h1 class="text-2xl font-semibold py-3">React JS</h1>
-                <p class="text-gray-600 text-lg pb-14">Fast, flexible web application with highly responsive user-interfaces.</p>
-                <a href="#" class="absolute bottom-5">Learn More</a>
+                <div>
+
+                    <h1 class="text-2xl font-semibold py-3">React JS</h1>
+                    <p class="text-gray-600 text-lg pb-14">Flexible web app with highly responsive user-interfaces. React is a free and open-source front-end Js library.</p>
+                </div>
+                <a href="#" class="pb-3">Learn More</a>
             </div>
-            <div class="relative px-6 pb-3 shadow-xl hover:scale-110 hover:ease-in-out duration-500 md:basis-[46%] lg:basis-[23%] sm:max-w-xl">
+            <div class="flex flex-col px-6  shadow-xl hover:scale-110 hover:ease-in-out duration-500 md:basis-[46%] lg:basis-[23%] sm:max-w-xl">
                 <img src="img/node.png" alt="" class="w-32 h-32 object-cover m-auto mt-5">
                 <h1 class="text-2xl font-semibold py-3">Node JS</h1>
-                <p class="text-gray-600 text-lg pb-14">Traffic intensive, framework driven, user-focused and mobile-optimized web applications for industry-specific needs.</p>
-                <a href="#" class="absolute bottom-5">Learn More</a>
+                <p class="text-gray-600 text-lg pb-14">Traffic intensive, framework driven and mobile-optimized web applications for industry-specific needs.</p>
+                <a href="#" class="pb-3">Learn More</a>
             </div>
-            <div class="relative px-6 pb-3 shadow-xl hover:scale-110 hover:ease-in-out duration-500 md:basis-[46%] lg:basis-[23%] sm:max-w-xl">
+            <div class="flex flex-col px-6 shadow-xl hover:scale-110 hover:ease-in-out duration-500 md:basis-[46%] lg:basis-[23%] sm:max-w-xl">
                 <img src="img/js.png" alt="" class="w-32 h-32 object-cover m-auto mt-5">
                 <h1 class="text-2xl font-semibold py-3">JavaScript</h1>
                 <p class="text-gray-600 text-lg pb-14">Programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</p>
-                <a href="#" class="absolute bottom-5">Learn More</a>
+                <a href="#" class="pb-3">Learn More</a>
             </div>
-            <div class="relative px-6 pb-3 shadow-xl hover:scale-110 hover:ease-in-out duration-500 md:basis-[46%] lg:basis-[23%] sm:max-w-xl">
+            <div class="flex flex-col px-6 shadow-xl hover:scale-110 hover:ease-in-out duration-500 md:basis-[46%] lg:basis-[23%] sm:max-w-xl">
                 <img src="img/git.png" alt="" class="w-32 h-32 object-cover m-auto mt-5">
                 <h1 class="text-2xl font-semibold py-3">Git</h1>
                 <p class="text-gray-600 text-lg pb-14">Git is a distributed version control system that tracks changes in any set of computer files.</p>
-                <a href="#" class="absolute bottom-5">Learn More</a>
+                <a href="#" class="pb-3">Learn More</a>
             </div>
 
         </div>
     </section>
     <footer>
 
-        <div class="text-center text-lg bg-gray-200 py-4">
+        <div class="flex justify-center flex-col items-center text-lg bg-gray-200 py-4">
             <div class="text-2xl space-x-5 pt-2 cursor-pointer">
                 <i class="fa fa-instagram"></i>
                 <i class="fa fa-twitter"></i>
@@ -76,7 +79,7 @@
                 <i class="fa fa-github"></i>
             </div>
 
-            <ul class="flex justify-center list-none space-x-6 py-2 cursor-pointer">
+            <ul class="flex list-none space-x-6 py-2 cursor-pointer">
                 <li class="hover:text-blue-800">Home</li>
                 <li class="hover:text-blue-800">About</li>
                 <li class="hover:text-blue-800">Services</li>
